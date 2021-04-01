@@ -9,7 +9,7 @@ _________
 Please run the following on Commjhub (fetch as an assignment?)
 
 ``` python
-!git clone https:// THIS ETIENNE REPO
+!git clone https://github.com/atnjqt/ssh-keygen-jhub
 ```
 
 Open up the following  python notebook for instructions on **SSH Keygen inside of a Jupyterhub Multi-User Python Environment**:
