@@ -1,1 +1,4 @@
 *.ipynb_checkpoints
+### ignore the github ssh-keyscan temp files
+github_ssh_test
+fingerprint_rsa
