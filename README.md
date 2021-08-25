@@ -5,9 +5,7 @@ _________
 
 ## Getting Started
 
-Please run the following in a blank notebook on [Commjhub](https://commjhub.asc.upenn.edu/) to download the notebook:
-- 
-
+Please run the following in a blank notebook on [Commjhub](https://commjhub.asc.upenn.edu/):
 
 ### Clone this repo
 
@@ -22,6 +20,13 @@ Proceed to run the configurations python cells in the included [ssh-keygen.ipynb
 
 - Be sure to set for *your specific configurations*!
 
+
+### Confirms your connectivity to Github!
+
+```python
+%%bash
+ssh -T git@github.com
+```
 
 > 🧐 *Note: This example python notebook is for generating SSH keys to then use via the Git Extension with SSH remote origins (though you can use HTTPs remote origins with a [Personal Access Key](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token). In the browser url change the appending `/tree?` to `/lab` and see the SCM tab on the lefthand side!*
 __________
