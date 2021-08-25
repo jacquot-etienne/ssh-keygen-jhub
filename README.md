@@ -1,25 +1,27 @@
 # Generate SSH Keys on [Commjhub](https://commjhub.asc.upenn.edu/) for GitHub 🚀🔑⚡
 
-Etienne P Jacquot - [epj@asc.upenn.edu](mailto:epj@asc.upenn.edu)
-
+Etienne P Jacquot - [etienne.jacquot@asc.upenn.edu](mailto:etienne.jacquot@asc.upenn.edu)
 _________
 
 ## Getting Started
 
-Please run the following on Commjhub (fetch as an assignment?)
+Please run the following in a blank notebook on [Commjhub](https://commjhub.asc.upenn.edu/) to download the notebook:
+- 
+
+
+### Clone this repo
 
 ``` python
-!git clone https://github.com/atnjqt/ssh-keygen-jhub
+%%bash
+git clone https://github.com/atnjqt/ssh-keygen-jhub
 ```
 
-Open up the following  python notebook for instructions on **SSH Keygen inside of a Jupyterhub Multi-User Python Environment**:
+### Run the notebook
+
+Proceed to run the configurations python cells in the included [ssh-keygen.ipynb](./ssh-keygen.ipynb) notebook
+
+- Be sure to set for *your specific configurations*!
 
 
-- [ssh-keygen.ipynb](./ssh-keygen.ipynb)
-
+> 🧐 *Note: This example python notebook is for generating SSH keys to then use via the Git Extension with SSH remote origins (though you can use HTTPs remote origins with a [Personal Access Key](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token). In the browser url change the appending `/tree?` to `/lab` and see the SCM tab on the lefthand side!*
 __________
-
-
-I was able to get this `ssh-keygen` working based on a random stackexchange article. I added a helpful comment here: [https://unix.stackexchange.com/a/643124/434033](https://unix.stackexchange.com/a/643124/434033)
-
-**UPDATE** --> I added steps for `ssh-keycan` to confirm known_hosts instead of just strictly ignoring. It's probably more than what is needed for commjhub undergraduate students. I added a helpful comment here: [https://serverfault.com/a/1059127/593114](https://serverfault.com/a/1059127/593114)
